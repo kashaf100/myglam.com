@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="GLAM.html">
+</head>
+<style>
+  .but{
+     background: none;
+     border: none;
+     font-size: larger;
+     font-weight: bold;
+  }
+  .container-fluid1{
+    margin-top: 210px;
+  }
+</style>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="GLAM.html">GLAM</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="GLAM.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="productS.html">PRODUCTS</a></li>
+        <li><a href="members.html">MEMBERS</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup5.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login5.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <center><h2>LOGIN FORM</h2></center>
+      <form class="form-horizontal" action="login.php" method="post">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" name="mail" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Password:</label>
+          <div class="col-sm-10">          
+            <input type="password" name="pass" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">        
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=islampura&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div><style>.mapouter{position:relative;text-align:right;width:400px;height: 250px;}.gmap_canvas {overflow:hidden;background:none!important;width:450px;height:300px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid1 bg-danger">
+  <div class="row">
+    <div class="col-md-4">
+    <h1 style="color: red;">GLAM</h1>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li><button class="but"><a href="GLAM.html.html">HOME</a></button></li>
+        <li><button class="but"><a href="about.html">ABOUT US</a></button></li>
+        <li><button class="but"><a href="products.html">PRODUCTS</a></button></li>
+        <li><button class="but"><a href="members.html">MEMBERS</a></button></li>
+    </ul>
+    </div>
+    <div class="col-md-4">
+      <h1 style="color: red;">LINKS :</h1>
+      <input type="email" name="EMAIL" placeholder="abc@gmail.com">
+    </div>
+  </div>
+</div>
+</body>
+</html>

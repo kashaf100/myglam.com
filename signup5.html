@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="GLAM.html">
+</head>
+<style>
+  .but{
+     background: none;
+     border: none;
+     font-size: larger;
+     font-weight: bold;
+  }
+  .container-fluid1{
+    margin-top: 65px;
+  }
+</style>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="GLAM.html">GLAM</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="members.html">MEMBERS</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup5.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login5.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    <form class="container" action="signup.php" method="post">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" name="mail" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" name="pass" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" name="add1" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" name="add2" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" name="cityname" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" name="zipcode" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+       <center><button type="submit" class="btn btn-danger">Sign in</button></center> 
+      </form>
+      <div class="container-fluid1 bg-danger">
+        <div class="row">
+          <div class="col-md-4">
+          <h1 style="color: red;">GLAM</h1>
+          </div>
+          <div class="col-md-4">
+            <br>
+            <ul>
+              <li><button class="but"><a href="GLAM.html">HOME</a></button></li>
+              <li><button class="but"><a href="about.html">ABOUT US</a></button></li>
+              <li><button class="but"><a href="products.html">PRODUCTS</a></button></li>
+              <li><button class="but"><a href="members.html">MEMBERS</a></button></li>
+          </ul>
+          </div>
+          <div class="col-md-4">
+            <h1 style="color: red;">LINKS :</h1>
+            <input type="email" name="EMAIL" placeholder="abc@gmail.com">
+          </div>
+        </div>
+      </div>
+      </body>
+</html>
